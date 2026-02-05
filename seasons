@@ -1,0 +1,7 @@
+CREATE TABLE seasons (
+   season INT PRIMARY KEY
+);
+
+INSERT INTO seasons VALUES(2023);
+INSERT INTO seasons VALUES(2024);
+INSERT INTO seasons VALUES(2025);
