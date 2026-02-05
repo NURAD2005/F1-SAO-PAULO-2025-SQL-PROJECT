@@ -1,17 +1,15 @@
 CREATE TABLE teams (
     team_id INT PRIMARY KEY,
-    team_name VARCHAR(50) NOT NULL,
-    colour VARCHAR(30) NOT NULL
+    team_name VARCHAR(50) NOT NULL
 );
 
-INSERT INTO teams VALUES (1, 'Red Bull', 'Blue/Red');
-INSERT INTO teams VALUES (2, 'Mercedes', 'Silver');
-INSERT INTO teams VALUES (3, 'Ferrari', 'Red');
-INSERT INTO teams VALUES (4, 'McLaren', 'Papaya Orange');
-INSERT INTO teams VALUES (5, 'Alpine', 'Blue');
-INSERT INTO teams VALUES (6, 'Sauber', 'White');
-INSERT INTO teams VALUES (7, 'Haas', 'Black/White');
-INSERT INTO teams VALUES (8, 'Williams', 'Blue/White');
-INSERT INTO teams VALUES (9, 'Aston Martin', 'British Racing Green');
-INSERT INTO teams VALUES (10, 'Racing Bulls', 'Red/Black');
-````
+INSERT INTO teams VALUES (1, 'Red Bull');
+INSERT INTO teams VALUES (2, 'Mercedes');
+INSERT INTO teams VALUES (3, 'Ferarri');
+INSERT INTO teams VALUES (4, 'Mclaren');
+INSERT INTO teams VALUES (5, 'Alpine');
+INSERT INTO teams VALUES (6, 'Sauber');
+INSERT INTO teams VALUES (7, 'Haas');
+INSERT INTO teams VALUES (8, 'Williams');
+INSERT INTO teams VALUES (9, 'Aston Martin');
+INSERT INTO teams VALUES (10, 'Racing Bull');
